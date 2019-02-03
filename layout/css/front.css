@@ -1,0 +1,364 @@
+/*========= start main rules ===========*/
+body{
+    background-color: #ccc;
+}
+nav{
+    position: relative;
+    z-index: 5;
+}
+h2{
+    margin: 70px 0;
+    font-weight: bold;
+}
+h3,h4{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+footer{
+    background-color: #444;
+    color: #fff;
+    padding: 20px 0 30px;
+    margin-top: 30px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 10px;
+}
+footer ul li a{
+   color: #fff;
+}
+footer ul li span{
+   margin-left: 10px;
+}
+.copy{
+    color: #fff;
+    padding: 10px;
+    background-color: #222;
+}
+.form-group , textarea{
+    position: relative;
+}
+.astrick{
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+}
+.user-img{
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #aaa;
+    padding: 2px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.fa-3x{
+    color: firebrick;
+}
+.line{
+    margin: 100px;
+    border:1px solid #aaa;
+}
+.form-data{
+    width: 700px;
+    margin: auto; 
+}
+.form-data .btn{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.data-show{
+    padding: 20px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.pro-info , .comm-info , .products .product-info{
+    border: 1px solid #aaa;
+    padding: 2px;
+}
+.pro-info img , .comm-info img , .req-info img ,.products .product-info img{
+    width: 100%;
+}
+.comm-date{
+    color: #999;
+}
+.comment-data .btn , .all-comments .btn , .my-requests .btn{
+    margin-right: 5px;
+    
+}
+.comment-edit , .send-request{
+    width: 700px;
+    margin: auto;
+}
+.comment-edit .pro-info , .send-request .pro-info{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+/*=========== end main rules ===========*/
+/*========= start user login ===========*/
+
+.user-form{
+   margin:90px auto;
+}
+.user-form .login , .user-form .sign-up {
+    width: 400px;
+    margin:30px auto;
+    background-color: #3c3c3c;
+    padding: 50px 40px;
+    border-radius: 45px;
+    box-shadow:6px 6px 8px #f3f3f3 ;
+}
+.user-form input.form-control{
+    height: 45px;
+    margin-bottom: 17px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+}
+.user-form ::placeholder{
+    color: #bbb;
+}
+.user-form span{
+    cursor: pointer;
+    color: #777;
+}
+.user-form span.select{
+    font-weight: bold;
+    font-size: 40px;
+    color:firebrick;
+}
+.user-form div{
+    display: none;
+}
+.user-form .active{
+    display: block;
+}
+
+/*========= end user login  ===========*/
+/*========== start index ============*/
+
+header{
+    background:url(../images/img4.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #fff;
+}
+header .header-text{
+    margin: auto;
+    top: 100px;
+    width: 900px;
+    padding: 80px 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+header .header-text h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+header .header-text h1 , header .header-text p{
+    position: relative;
+    z-index: 5;
+}
+header .header-text p{
+    font-size: 20px;
+}
+.features ,.products{
+    padding: 20px 0 ;
+}
+.features h4{
+    margin-top: 30px;
+}
+.features p{
+    padding: 10px;
+}
+.products{
+    background-color: #e4e4e4;
+}
+.products ul{
+    width: 700px;
+    margin-bottom: 100px;
+    list-style: none;
+    margin: auto;
+    display: flex;
+}
+.products ul a{
+    flex: 1;
+}
+.products ul li{
+    margin-bottom: 50px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    background-color: #ccc;
+}
+.products .product-info{
+    position: relative;
+    margin-bottom: 20px;
+}
+.products .product-info .btn{
+    margin-bottom: 20px;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(4,4,4,.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.choosed{
+    background-color: firebrick !important;
+    color: #fff;
+}
+.information{
+    background: url(../images/img1.jpg);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    color: #fff;
+    padding: 70px 0;
+    position: relative;
+}
+.information h2{
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+.information h2 , .information .info-stat{
+    position: relative;
+    z-index: 5;
+}
+.information .info-stat span{
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.information .info-stat hr{
+    margin: 30px 70px;;
+    border: 2px solid #fff;
+}
+.contact{
+    padding: 20px 0 50px;
+}
+.contact .form-msg{
+    width: 700px;
+    margin: auto;
+}
+.contact .form-msg textarea{
+    width: 100%;
+    height: 200px;
+}
+.contact .form-msg .btn{
+    margin-top: 20px;
+}
+
+/*========== end index  ============*/
+/*========= start about ===========*/
+
+.about{
+    margin: 50px 0 70px;
+}
+ .right-img , .left-img{
+    border: 1px solid #aaa;
+    padding: 3px;
+   
+    
+}
+.right-img{
+    margin-left: 70px;
+}
+.left-img{
+    margin-right: 70px;
+}
+.about  img{
+    width: 100%;
+    height: 100%;
+}
+/*========= end about ===========*/
+/*========= start products ===========*/
+
+.pro-info{
+    margin-bottom: 50px;
+}
+.pro-info .btn{
+    margin-bottom: 20px;
+}
+
+/*========= end products ===========*/
+/*========= start comments ===========*/
+ 
+.user-attr{
+    margin-bottom: 20px;
+}
+.user-attr img{
+    margin-bottom: 10px;
+}
+.user-comment{
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    background-color: #ccc;
+    position: relative;
+}
+.all-comments .com-data{
+    padding: 10px 100px;;
+}
+.user-comment:before{
+    content: "";
+    position: absolute;
+    top:-30px;
+    left:20px ;
+    border-width:15px ;
+    border-style: solid;
+    border-color: transparent transparent #ccc transparent;
+}
+.all-comments .user-comment{
+    margin-bottom: 30px;
+}
+.desc{
+    padding: 10px;
+    margin: 30px 30px 80px;
+    border-radius: 30px;
+    background-color: #aaa;
+}
+.comment-edit form textarea{
+    height: 150px;
+}
+.comment-edit form .btn{
+    margin: auto;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/*========= end comments ===========*/
+/*========= start profile ===========*/
+
+.my-requests .profile-heading{
+    margin-bottom: 70px;
+}
+.my-requests .req-info{
+    padding: 3px;
+    border: 1px solid #aaa;
+}
+.my-requests .req-data{
+    padding-top: 50px;
+}
+
+/*========= end profile ===========*/
